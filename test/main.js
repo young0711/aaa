@@ -271,7 +271,7 @@ function keyPressed() {
 function mousePressed() {
   throwTissu();
 
-  if (day === 0 && cut === 1) {
+  if (day === 0 && cut === 2) {
     // 첫 번째 oneOb 클릭
     if (
       !hideOneOb[0] &&
@@ -301,7 +301,7 @@ function mousePressed() {
 }
 
 function throwTissu() {
-  if (day === 0 && cut === 2) {
+  if (day === 0 && cut === 3) {
     isFlying = true;
     t = 0;
   }
